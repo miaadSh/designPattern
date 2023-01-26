@@ -1,0 +1,15 @@
+{
+    "name": "funlife/factory-method",
+    "autoload": {
+        "psr-4": {
+            "Funlife\\FactoryMethod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miaad shahrokhi",
+            "email": "miaad.66@gmail.com"
+        }
+    ],
+    "require": {}
+}
