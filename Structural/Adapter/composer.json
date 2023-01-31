@@ -1,0 +1,17 @@
+{
+    "name": "funlife/adapter",
+    "description": "design Patern sample",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Funlife\\Adapter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miaad shahrokhi",
+            "email": "miaad.66@gmail.com"
+        }
+    ],
+    "require": {}
+}
