@@ -1,0 +1,21 @@
+{
+    "name": "life/chain-of-responsibility",
+    "autoload": {
+        "psr-4": {
+            "Life\\ChainOfResponsibility\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miaad shahi"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
