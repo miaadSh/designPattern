@@ -1,0 +1,15 @@
+{
+    "name": "life/memento",
+    "autoload": {
+        "psr-4": {
+            "Life\\Memento\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miaad shahrokhi",
+            "email": "miaad.66@gmail.com"
+        }
+    ],
+    "require": {}
+}

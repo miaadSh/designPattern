@@ -1,0 +1,15 @@
+{
+    "name": "life/state",
+    "autoload": {
+        "psr-4": {
+            "Life\\State\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miaad shahrokhi",
+            "email": "miaad.66@gmail.com"
+        }
+    ],
+    "require": {}
+}
