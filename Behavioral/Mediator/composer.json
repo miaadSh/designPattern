@@ -1,0 +1,22 @@
+{
+    "name": "life/mediator",
+    "autoload": {
+        "psr-4": {
+            "Life\\Mediator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miaad shahrokhi",
+            "email": "miaad.66@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
