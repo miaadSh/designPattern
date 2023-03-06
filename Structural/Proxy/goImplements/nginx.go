@@ -6,7 +6,7 @@ type Nginx struct {
 	rateLimiter     map[string]int
 }
 
-func newNginxServer() *Nginx {
+func NewNginxServer() *Nginx {
 	return &Nginx{
 		app:             &Application{},
 		maxAllowRequest: 2,
@@ -28,7 +28,7 @@ func (n *Nginx) checkRateLimiting(url string) bool {
 	if n.rateLimiter[url] == 0 {
 		n.rateLimiter[url] = 1
 	}
-	if n.rateLimiter[url] > n.maxAllowedRequest {
+	if n.rateLimiter[url] > n.maxAllowRequest {
 		return false
 	}
 	n.rateLimiter[url] = n.rateLimiter[url] + 1
